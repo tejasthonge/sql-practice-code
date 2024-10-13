@@ -1,16 +1,81 @@
 
 
-
-sql :
-
-    - it stans for Standerd qurry language
-    - that mens 
-
-clouse:
-    the basic keywords to from the qurry
-    like
-    - select ,use, from
-
-qurry :
-    - it is bunch of clouse 
+DBMS : 
+    - database mangement system 
+    - systems used to store, retrieve, and run queries on data
+    - a person who has the centeral controles both data and programes that are accase those data
     
+   
+
+
+
+Schama: it is nothing but desgine of the database 
+
+Levals their are 3 levals like follow 
+
+ View2(Extanal)    View2 (Extanal)       ---> user 
+          |           |                  
+          |___________| 
+                |
+         conseptual Levals               ---> DBA
+                |
+          Internal Leval                 ---> DBA
+                |
+             Database                    ---> RAM or ROM
+
+- and each leval hase the own schama that is desgine
+
+DDL :Data defintion language
+    - create table student( 
+        id INTEGER PRIMARY KEY,
+        name VARCHAR 
+        brand VARCHAR
+    );
+DML : Data Madupulation Languages
+    - select * from student;
+
+// this above is what is difance bettwein the ddl and dml 
+
+DBA :- database Administrator
+    - who have all controles of of the database 
+     Fonctions of DBA :
+        - 1 schama defintion 
+        - 2 stronge stucture and the accesse methods 
+        - 3 schama and physical organization and modifictions
+        - 4 Authitentions controles 
+        - 5 routine mantance 
+            -1 periodic backups
+            -2 security pathes 
+            -3 any upgrades 
+
+
+DBMS Application Arrchetecuture :
+
+    # thire are tree types of Arrchetecuture 
+        - 1 T1  one tier 
+            -  clint and (database) are in single os
+        
+        - 2 T2 two tier
+            - cilent and database are both two are diferent opreting system
+            
+            OS1             sql qurry          OS2
+            Client            <---->           (Databse) 
+
+            - in this the clint are reach out to the database by the direct qurry 
+            - its not security provides
+
+        - 3 T3 three tier
+            - clint and database bettwein them one layer that is  apliction server 
+
+            OS1                            OS2
+            cliennt    <-----> AplictionSever <----> database   
+
+            - it will provides the security to reach out to the database by the direct
+            - we can handles the users or clint eligale activity
+            - to secure the database 
+
+
+
+    
+
+
