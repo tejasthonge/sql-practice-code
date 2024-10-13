@@ -1,0 +1,16 @@
+
+
+
+sql :
+
+    - it stans for Standerd qurry language
+    - that mens 
+
+clouse:
+    the basic keywords to from the qurry
+    like
+    - select ,use, from
+
+qurry :
+    - it is bunch of clouse 
+    
