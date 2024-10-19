@@ -1,0 +1,73 @@
+
+
+#Er Model:
+
+    - it is an blue print in which the relationship bettwen the the two Entities
+
+
+    - 
+    Entities :
+        -  is the word that dicribes like as follows
+        - 1 student ,
+        - 2 collage
+        - 3 bank
+        above are the Entities
+
+    atributes :
+        the word that dicribes the antities information
+        like one Entities is student 
+        and thier atributes are
+            - 1 roolNo
+            - 2 name 
+            - 3 address
+            - 4 school 
+        like that above 
+
+
+    - we can write the Entities in rectangular form 
+    - we write  the atributes in the circular form 
+    - we write the relationship bettwein two Entities in dimad form 
+
+    
+    eg:
+    
+    for example er model bettweint the cutomer and the bank as follows
+        
+        [cutomer]  -- <deposite> -- [amount]
+        [cutomer]  -- <borrow>   -- [loan]
+        [cutomer]  -- <open>   -- [account]
+
+    like aboves 
+    this is know as the ER model 
+
+
+#Types of atributes:
+    - 1 Simple :
+        - atributes that can not not divided futher 
+        - customer accont no in the bank 
+        - employee phone number , employee id 
+        - this above we can not futher divided futher this is known as the Simple atributes 
+
+    -2 Composite :
+        - can be divided into the subpart 
+        - for example name of persion that can be divided into the subpart like first_name and the last_name 
+        - if want referth the entire atributes or to single atrribute 
+        - other example is the address it can futher divided in city strete, state, PIN code like that
+
+    -3 Singel-valued :
+        -it have only one value like 
+        - student id ,loan number for the loan
+        - 
+
+    -4 Multi-valued :
+        - the atributes consits more that one value 
+        - like phone no any persion have two phone no
+        - studtent have the skile set 
+    
+    -5 Derived :
+        - the atributes can be Derived from the other atributes
+        - like age of persion can be Derived form the date of birth
+        - loan age,membarship period
+    
+    -6 Null valued:
+        - an value take null value when an Entities does note have any value
